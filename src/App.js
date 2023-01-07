@@ -9,8 +9,8 @@ function App() {
   return (
     <div className="App">
       <h1> Hello World: {count}</h1>
-      <button onClick={() => dispatch(decrement())}>Decrement</button>
-      <button onClick={() => dispatch(increment())}>Increment</button>
+      <button className="bn11" onClick={() => dispatch(decrement())}>Decrement</button>
+      <button className="bn11" onClick={() => dispatch(increment())}>Increment</button>
     </div>
   );
 }
